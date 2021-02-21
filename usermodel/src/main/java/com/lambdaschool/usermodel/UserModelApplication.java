@@ -54,6 +54,8 @@ public class UserModelApplication
         {
             SpringApplication.run(UserModelApplication.class,
                 args);
+        } else {
+            System.out.println("Environment variables NOT SET!!");
         }
     }
 }
